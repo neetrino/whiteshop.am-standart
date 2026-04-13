@@ -16,6 +16,9 @@ dist/
 build/
 coverage/
 
+# Turborepo (cache + daemon logs — not for the repo)
+.turbo/
+
 # Logs and temp
 *.log
 npm-debug.log*
